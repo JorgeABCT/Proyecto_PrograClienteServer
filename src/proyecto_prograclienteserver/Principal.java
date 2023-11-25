@@ -4,6 +4,8 @@
  */
 package proyecto_prograclienteserver;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author XPC
@@ -19,6 +21,12 @@ public class Principal {
         //probando si sirve
         //AAAAA
         //Holaa
+        
+        ManejoBD mane = new ManejoBD();
+        Menu menu = new Menu();
+        menu.Importar();
+        menu.MostrarDatos();
+        menu.MenuCliente();
     }
     
 }
